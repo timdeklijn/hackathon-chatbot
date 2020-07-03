@@ -2,3 +2,4 @@ venv/
 models/*.tar.gz
 __pycache__/
 .vscode/
+results/

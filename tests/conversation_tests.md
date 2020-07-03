@@ -49,3 +49,7 @@
 ## bot challenge
 * bot_challenge: are you a bot?
   - utter_iamabot
+
+## wheater question
+* wheater_question: what's the weather like?
+  - utter_weather

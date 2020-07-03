@@ -54,3 +54,10 @@
 - are you a human?
 - am I talking to a bot?
 - am I talking to a human?
+
+## intent:weather_question
+- what is the weather like?
+- is it warm today?
+- is it raining?
+- how's the weather like?
+- how warm is it outside?
