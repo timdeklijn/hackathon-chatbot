@@ -24,8 +24,6 @@ class ActionWeather(Action):
         domain: Dict[Text, Any],
     ) -> List[Dict[Text, Any]]:
 
-        # =================
-
         response = requests.get("https://www.metaweather.com/api/location/727232/")
         data = response.json()
         temp = data["consolidated_weather"][0]["the_temp"]
@@ -36,9 +34,6 @@ class ActionWeather(Action):
 - It currently is {temp} degrees Celcius with {state}.
 - The visibility is {visibility*1.6:4.2f} km
 """
-
-        # =================
-
         dispatcher.utter_message(text=utter_message)
 
         return []
